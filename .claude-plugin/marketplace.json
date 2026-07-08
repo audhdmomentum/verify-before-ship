@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "axiom-open-core",
+  "description": "Free, MIT-licensed open-core tools from Axiom Agent OS.",
+  "owner": {
+    "name": "Momentum Focus",
+    "email": "axiom@momentumfocus.org"
+  },
+  "plugins": [
+    {
+      "name": "verify-before-ship",
+      "description": "Make your coding agent prove a change works — drive the real behaviour and observe it — before it's allowed to say \"done\". A verify-before-you-ship discipline for Claude Code. Zero telemetry.",
+      "author": {
+        "name": "Momentum Focus",
+        "email": "axiom@momentumfocus.org"
+      },
+      "source": "./verify-before-ship",
+      "category": "development",
+      "homepage": "https://axiom.momentumfocus.org/axiom-os",
+      "license": "MIT"
+    }
+  ]
+}

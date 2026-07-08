@@ -1,0 +1,12 @@
+{
+  "name": "verify-before-ship",
+  "description": "Make your coding agent prove a change works — drive the real behaviour and observe it — before it's allowed to say \"done\". A verify-before-you-ship discipline for Claude Code. Zero telemetry.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Momentum Focus",
+    "email": "axiom@momentumfocus.org"
+  },
+  "homepage": "https://axiom.momentumfocus.org/axiom-os",
+  "license": "MIT",
+  "keywords": ["verify", "testing", "quality", "discipline", "agent", "claude-code", "no-telemetry"]
+}
