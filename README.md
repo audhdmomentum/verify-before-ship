@@ -11,6 +11,12 @@ This repository is a Claude Code **plugin marketplace**. It currently ships one 
 **Make your coding agent prove a change works — drive the real behaviour and observe it — before it's
 allowed to say "done."**
 
+![verify-before-ship catching a real /health 500, fixing it, verifying the 200, then shipping](./assets/demo.gif)
+
+*Every status code in the clip is a real captured server output — the agent catches a `/health`
+endpoint that 500s, fixes it, re-drives to a real `200 {"ok":true}`, checks a `405` edge, then ships
+with the evidence. ([download mp4](./assets/demo.mp4))*
+
 Green tests and a clean typecheck are necessary, not sufficient. `verify-before-ship` adds one
 discipline: the agent must drive the actual change through the actual system and watch it do the thing.
 "Done" comes to mean **observed**, not **hoped**. No network calls, no telemetry, no account.
